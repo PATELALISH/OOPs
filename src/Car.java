@@ -1,6 +1,5 @@
 /**
- * contains the method for car functions such as turn on, setting up the speed, increase the speed, decrease the speed,
- * and stop.
+ * contains the method for driving cars.
  * @WrittenBy ALISH PATEL.
  * Date 26th of June 2023.
  */

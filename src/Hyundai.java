@@ -1,7 +1,5 @@
-/**
- * Hyundai class is child class of Car class.
- * This class contains Hyundai's own features, that make it different from other cars.
- * Like heating up the seat, own highest speed, own mileage.
+/**.
+ * This class contains methods only for Hyundai.
  */
 public class Hyundai extends Car {
     private  boolean heatedSeat;
@@ -19,7 +17,7 @@ public class Hyundai extends Car {
         super.setSpeed(Math.min(speed, 300));
 
         if(speed > 300){
-            System.out.printf("This car can only go up to 180. Sorry!");
+            System.out.printf("This car can only go up to 300. Sorry!");
         }
     }
 
@@ -29,7 +27,7 @@ public class Hyundai extends Car {
         return super.getSpeed();
     }
 
-    //Hyundai has some feature unlike other car.
+    //This method will heat up the seat.
     public String heatedSeat(boolean heatedSeat){
 
         if (heatedSeat){

@@ -1,5 +1,5 @@
 /**
- * In this Main class we can test the code. Class include main method.
+ * In this Main class, include main method.
  * The commented code is the test for individual class.
  */
 

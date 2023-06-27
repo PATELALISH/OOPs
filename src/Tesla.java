@@ -1,7 +1,5 @@
-/**
- * Tesla class is child class of Car class.
- * This class contains Tesla's own features, that make it different from other cars.
- * Like self-driving mode, own highest speed, own mileage.
+/**.
+ * This class contains methods only for Tesla.
  */
 public class Tesla extends Car{
     private boolean selfDrivingMode;
@@ -28,7 +26,7 @@ public class Tesla extends Car{
         }
     }
 
-    //Tesla has its own feature unlike other cars.
+    //This method will turn on or turn off the self-driving mode.
     public String selfDrivingMode(boolean selfDrivingMode){
         if (selfDrivingMode){
             return "Self driving mode is on. Sit back and enjoy the ride!";
