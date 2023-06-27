@@ -29,7 +29,8 @@ public class Car implements Drive{
             this.driving = true;
             this.speed = speed;
         }
-        else System.out.println("The speed is already set!");
+        else System.out.println("The speed is already set!"); //This message will pop up if the car's speed is
+        // already setup.
     }
 
     //getter

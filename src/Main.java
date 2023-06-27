@@ -10,7 +10,7 @@ public class Main {
 //        System.out.println(tesla.getSpeed());
 //        tesla.setSpeed(255);
 //        System.out.println(tesla.getSpeed());
-////          tesla.turnOn();
+//          tesla.turnOn();
 //          tesla.turnOn();
 //        System.out.println(tesla.selfDrivingMode(true));
 //       // System.out.println(tesla.increaseSpeed(300));
