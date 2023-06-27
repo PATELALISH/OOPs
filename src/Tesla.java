@@ -1,6 +1,7 @@
 public class Tesla extends Car implements Drive{
     private boolean selfDrivingMode;
 
+
     public Tesla(String carModel, double mileage) {
         super(carModel, mileage);
         this.selfDrivingMode = false;
