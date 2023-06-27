@@ -16,10 +16,6 @@ public class Main {
 //       // System.out.println(tesla.increaseSpeed(300));
 //        System.out.println(tesla.decreaseSpeed(50));
 
-//        Car car = new Car("Nisan", 30000);
-//
-//        //car.turnOn();
-//        System.out.println(car.increaseSpeed(20));
 
         Hyundai hyundai = new Hyundai("hyundai", 30000);
         hyundai.turnOn();

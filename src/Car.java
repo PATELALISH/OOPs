@@ -3,7 +3,7 @@
  * Date 26th of June 2023.
  */
 
-public class Car implements Drive{
+public abstract class Car implements Drive{
 
 
     private String carModel;
@@ -82,16 +82,18 @@ public class Car implements Drive{
     }
 
 
-    public void stop() {
+    public abstract void stop();
         /**
          * UPDATE :- I update this method. Firstly the car can stop at any speed.
          * But now it can only stop at certain speed.
          */
-         if(this.speed <= 20){
-            System.out.println("The car is stopped");
-         }
-      else System.out.println("The car can't stop, it's too fast. The speed should be less then or equal 20!");
+//         if(this.speed <= 20){
+//            System.out.println("The car is stopped");
+//         }
+//      else System.out.println("The car can't stop, it's too fast. The speed should be less then or equal 20!");
 
-    }
+
+
+
 }
 

@@ -27,6 +27,14 @@ public class Hyundai extends Car {
         return super.getSpeed();
     }
 
+    @Override
+    public void stop() {
+        if(getSpeed() <= 15){
+            System.out.println("The car is stopped");
+         }
+      else System.out.println("The car can't stop, it's too fast. The speed should be less then or equal 15!");
+    }
+
     //This method will heat up the seat.
     public String heatedSeat(boolean heatedSeat){
 

@@ -16,6 +16,8 @@ public class Tesla extends Car{
         return super.getSpeed();
     }
 
+
+
     //overridden setter. I make some change in it according Tesla.
     @Override
     public void setSpeed(int speed) {
@@ -31,5 +33,15 @@ public class Tesla extends Car{
         if (selfDrivingMode){
             return "Self driving mode is on. Sit back and enjoy the ride!";
         } else return "Self driving mode is off";
+    }
+
+    @Override
+    public void stop() {
+
+        if(getSpeed() <= 20){
+            System.out.println("The car is stopped");
+         }
+      else System.out.println("The car can't stop, it's too fast. The speed should be less then or equal 20!");
+
     }
 }
