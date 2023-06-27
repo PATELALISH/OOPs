@@ -1,5 +1,4 @@
 /**
- * contains the method for driving cars.
  * @WrittenBy ALISH PATEL.
  * Date 26th of June 2023.
  */

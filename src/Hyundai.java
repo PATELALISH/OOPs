@@ -1,5 +1,5 @@
 /**.
- * This class contains methods only for Hyundai.
+ * DATE :- 26th of June 2023
  */
 public class Hyundai extends Car {
     private  boolean heatedSeat;
