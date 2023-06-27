@@ -1,3 +1,8 @@
+/**
+ * In this Main class we can test the code. Class include main method.
+ * The commented code is the test for individual class.
+ */
+
 public class Main {
     public static void main(String[] args) {
 //        Tesla tesla = new Tesla("Tesla S model", 310000);
@@ -24,6 +29,7 @@ public class Main {
         System.out.println(hyundai.getSpeed());
         System.out.println(hyundai.increaseSpeed(10));
         hyundai.stop();
+        System.out.println(hyundai.heatedSeat(false));
 
 
     }

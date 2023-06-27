@@ -84,7 +84,10 @@ public class Car implements Drive{
 
 
     public void stop() {
-
+        /**
+         * UPDATE :- I update this method. Firstly the car can stop at any speed.
+         * But now it can only stop at certain speed.
+         */
          if(this.speed <= 20){
             System.out.println("The car is stopped");
          }
