@@ -18,7 +18,7 @@ public class Tesla extends Car{
 
 
 
-    //overridden setter. I make some change in it according Tesla.
+    //overridden setter. I made some change in it according Tesla.
     @Override
     public void setSpeed(int speed) {
         super.setSpeed(Math.min(speed, 300));
