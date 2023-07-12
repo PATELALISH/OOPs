@@ -1,7 +1,7 @@
 /**
  * @WrittenBy ALISH PATEL.
  * Date 26th of June 2023.
- * Updated on -: 7th of July 2023.
+ * Updated on -: 12th of July 2023.
  */
 
 public abstract class Car implements Drive{
