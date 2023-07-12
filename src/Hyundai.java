@@ -17,7 +17,7 @@ public class Hyundai extends Car {
         super.setSpeed(Math.min(speed, 300));
 
         if(speed > 300){
-            System.out.printf("This car can only go up to 300. Sorry!");
+            System.out.println("This car can only go up to 300. Sorry!");
         }
     }
 
