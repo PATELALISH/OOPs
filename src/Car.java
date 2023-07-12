@@ -38,7 +38,7 @@ public abstract class Car implements Drive{
         /**
          * NOTE :- after setting up the speed for the first time. You have to use increaseSpeed() method to increase
          * the speed
-         * in motion. Otherwise the speed will not increase.
+         * in motion. Otherwise, the speed will not increase.
          **/
         return this.speed;
     }
